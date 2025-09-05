@@ -1,0 +1,20 @@
+# 1️⃣ Vá para a pasta principal do projeto
+cd /caminho/para/mupe-taxi
+
+# 2️⃣ Inicialize o Git
+git init
+
+# 3️⃣ Adicione todos os arquivos
+git add .
+
+# 4️⃣ Faça o commit inicial
+git commit -m "Primeiro commit - Mupe Táxi"
+
+# 5️⃣ Conecte ao repositório no GitHub
+git remote add origin https://github.com/SEU_USUARIO/mupe-taxi.git
+
+# 6️⃣ Configure a branch principal
+git branch -M main
+
+# 7️⃣ Envie os arquivos para o GitHub
+git push -u origin main
